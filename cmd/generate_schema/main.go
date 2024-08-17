@@ -16,7 +16,7 @@ func main() {
 
 	outputFilePath := os.Args[1]
 
-	ags := &automate.AutomateGenerateJsonSchema{
+	ags := &automate.GenerateAutomateJsonSchema{
 		SchemaDialect: "http://json-schema.org/draft-07/schema#",
 	}
 

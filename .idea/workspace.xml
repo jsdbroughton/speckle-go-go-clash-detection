@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb8b1350-0534-49e9-96fc-5b1309bf0e51" name="Changes" comment="" />
+    <list default="true" id="fb8b1350-0534-49e9-96fc-5b1309bf0e51" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/automate/generateschema.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/automate/generateschema.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/models/automate.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/models/automate.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,12 +70,12 @@
       <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
-      <window_info anchor="bottom" id="Problems View" order="2" weight="0.23510408" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3097631" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.3298636" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3298636" />
       <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.3298636" />
       <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
       <window_info anchor="right" id="make" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
