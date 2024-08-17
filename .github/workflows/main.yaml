@@ -25,9 +25,11 @@ jobs:
 
       # If you need to generate schema, you would do it here
       # If your Go application can generate the function schema, use the Go binary to do so
+      - name: Build Go binary for schemas
+        run: go build -o generate_schema ./cmd/generate_schema
       - name: Extract functionInputSchema
         id: extract_schema
-        run: ./speckle_function generate-schema ${HOME}/${{ env.FUNCTION_SCHEMA_FILE_NAME }}
+        run: ./generate_schema ${HOME}/${{ env.FUNCTION_SCHEMA_FILE_NAME }}
 
       # Speckle Automate Function - Build and Publish
       - name: Speckle Automate Function - Build and Publish
