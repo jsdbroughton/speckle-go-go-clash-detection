@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb8b1350-0534-49e9-96fc-5b1309bf0e51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cmd/generate_schema/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/automate/generateschema.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/models/automate.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/automate/automate_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/automate/automate_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/automate/dataretrieval.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/automate/dataretrieval.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/automate/executionengine.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/automate/executionengine.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/automate/resultspublisher.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/automate/resultspublisher.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/models/models_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/models/models_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/models/objects.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/models/objects.go" afterDir="false" />
-    </list>
+    <list default="true" id="fb8b1350-0534-49e9-96fc-5b1309bf0e51" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
