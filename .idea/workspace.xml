@@ -4,13 +4,32 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb8b1350-0534-49e9-96fc-5b1309bf0e51" name="Changes" comment="" />
+    <list default="true" id="fb8b1350-0534-49e9-96fc-5b1309bf0e51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cmd/generate_schema/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/automate/generateschema.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/models/automate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/automate/automate_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/automate/automate_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/automate/dataretrieval.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/automate/dataretrieval.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/automate/executionengine.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/automate/executionengine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/automate/resultspublisher.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/automate/resultspublisher.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/models/models_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/models/models_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/models/objects.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/models/objects.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" url="file:///usr/lib/go-1.13" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///snap/go/current" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -28,6 +47,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
@@ -36,7 +56,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/mnt/d/Repos/Speckle Automate/speckle-go -go-clash-detection&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jsdbroughton&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
@@ -50,18 +70,19 @@
       <window_info id="Pull Requests" show_stripe_button="false" />
       <window_info id="Learn" show_stripe_button="false" />
       <window_info id="DFA" show_stripe_button="false" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33014446" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17864116" />
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Welcome to GitHub Copilot" order="2" show_stripe_button="false" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
-      <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3298636" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.23510408" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3097631" />
       <window_info anchor="bottom" id="Services" order="4" />
       <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
       <window_info anchor="right" id="make" show_stripe_button="false" side_tool="true" />
@@ -71,15 +92,15 @@
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
-      <window_info anchor="right" id="github.copilotToolWindow" order="4" show_stripe_button="false" />
-      <window_info anchor="right" id="GitHub Copilot Chat" order="4" show_stripe_button="false" />
+      <window_info anchor="right" id="github.copilotToolWindow" order="5" show_stripe_button="false" />
+      <window_info anchor="right" id="GitHub Copilot Chat" order="6" show_stripe_button="false" />
     </layout>
   </component>
   <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="speckle-go-go-clash-detection" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind />
+      <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
@@ -87,7 +108,7 @@
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="speckle-go-go-clash-detection" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind />
+      <kind value="DIRECTORY" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />

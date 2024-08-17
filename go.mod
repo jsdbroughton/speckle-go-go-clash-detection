@@ -1,3 +1,3 @@
-module github.com/jsdbroughton/speckle-go--go-clash-detection
+module github.com/jsdbroughton/speckle-go-go-clash-detection
 
-go 1.13
+go 1.23.0
