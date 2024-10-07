@@ -33,7 +33,7 @@ jobs:
 
       # Speckle Automate Function - Build and Publish
       - name: Speckle Automate Function - Build and Publish
-        uses: specklesystems/speckle-automate-github-composite-action@0.8.1
+        uses: specklesystems/speckle-automate-github-composite-action@0.9.0
         with:
           speckle_automate_url: ${{ env.SPECKLE_AUTOMATE_URL || 'https://automate.speckle.dev' }} 
           speckle_token: ${{ secrets.SPECKLE_FUNCTION_TOKEN }}
